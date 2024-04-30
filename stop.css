@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #999 0%, #555 100%) ;
+}
+
+.stopwatch {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.circle {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    border-radius: 50%;
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    background:linear-gradient(#333,#000);
+    margin-bottom: 20px;
+    box-shadow: 0 0 50px rgb(0,0,0,0.5);
+    margin-left: 40%;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.start-btn {
+    background-color: green;
+    color: rgb(255,255,255);
+
+}
+
+.start-btn:hover {
+    background-color: darkgreen;
+}
+
+
+.lap-btn {
+    background-color: blue;
+    color:white ;
+}
+
+.lap-btn:hover {
+    background-color: darkblue;
+}
+
+.laps {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lap {
+    margin-bottom: 5px;
+
+}
+
